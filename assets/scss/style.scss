@@ -1,0 +1,152 @@
+@import url(./style.css);
+@import url(./style.css.map);
+
+thead{
+    background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+    z-index: -1;
+    .row{
+        position: relative;
+        border-bottom: 1px solid #fff;
+    }
+
+}
+.item{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+.logo{
+    img{
+        width: 90px;
+    }
+    span{
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        font-style:"sans-serif";
+        font-weight: 500;
+    }
+}
+.number{
+    a{
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fd784f;
+        background-color: #fd784f;
+        width: 100%;
+        height: 40px;
+     
+        span{
+            font-size: 12px;
+            text-align: center;
+            padding:20px;
+        }
+    }
+}
+.title{
+    h2{
+        color: #fff;
+        text-align: center;
+        font-size: 70px;
+        margin-top: 200px;
+        font-weight: 600;
+    }
+}
+.sec-item1{
+    margin-top: 400px;
+   .title1{
+    h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #1e2c4e;
+        padding-top: 50px;
+    }
+    h2{
+        color: #b0b1b3;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+   }
+}
+
+.sq{
+    display: block;
+    align-items: center;
+    max-width: 5px;
+    margin: 0 50%;
+    height: 80px;
+    background-color: #fd784f;
+}
+.card{
+    position: relative;
+    .card-head{
+        position: relative;;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        p{
+           font-size: 16px;
+           font-weight: 600;
+           padding: 10px;
+           width: 40%;
+           height: 45px;
+           margin-top: 20px;
+           text-align: center;
+           border: 1px solid #fd784f;
+           background-color: #fd784f;
+           color: #fff;
+           position: absolute;
+           z-index: 1;
+        }
+    }
+    .card-body{
+        width: 100%;
+        p{
+            font-size: .8rem;
+        }
+        .icons{
+            display: flex;
+            li{
+                list-style: none;
+                padding: 10px ;
+                i{
+                    font-size: 20px
+                };
+            }
+        }
+    }
+}
+.cash{
+    background-color: #1e2c4e;
+    color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    height: 120px;
+    .icon1{
+        i{
+           font-size: 35px;
+           color: #fd784f;
+           padding-top: 15px;
+           padding-left: 40px;
+           padding: 10px;
+        }
+    }
+    .price{
+        :last-child{
+            font-size: 40px;
+        }
+    }
+}
